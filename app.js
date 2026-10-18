@@ -458,6 +458,8 @@ function renderAbout() {
     <p class="small" style="margin:0">Free questions are made in your browser from your PDF's text: fill-in-the-blank and definition matching. They work best on notes and readings, and nothing is uploaded anywhere. AI questions (optional, with your own free Gemini key or an Anthropic key) are written like a tutor would, with explanations, and they can read image-heavy slides.</p>
     <h3 style="margin:20px 0 4px">Privacy</h3>
     <p class="small" style="margin:0">There's no account and no server. Your classes, questions, scores and keys are stored in this browser. In AI mode, the PDF goes directly from your browser to the AI provider you chose. Clearing your browser data erases everything, so download a backup in Settings if you care about your progress.</p>
+    <h3 style="margin:20px 0 4px">Credits</h3>
+    <p class="small" style="margin:0">Made by Towsif. Coded with Claude (Opus 5.5) by Anthropic. PDF reading by pdf.js (Mozilla) and pdf-lib.</p>
   </div>`;
   $("#back").onclick = () => setTab(tab);
 }

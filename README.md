@@ -38,4 +38,6 @@ Then, when adding PDFs to a class, choose **AI questions**.
 
 ## Credits
 
+Coded with [Claude](https://claude.ai) (Opus 5.5) by Anthropic.
+
 PDF reading by [pdf.js](https://mozilla.github.io/pdf.js/) (Apache 2.0) and [pdf-lib](https://pdf-lib.js.org/) (MIT), bundled in `lib/`.
