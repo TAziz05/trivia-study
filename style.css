@@ -25,6 +25,8 @@ body{background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system
 a{color:var(--accent)}
 .wrap{max-width:720px;margin:0 auto;padding:20px 16px 96px}
 header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .logo{width:44px;height:44px;flex:none;border-radius:10px;box-shadow:0 0 0 1px var(--line)}
 .brand h1{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:28px;margin:0;letter-spacing:-.01em}
 .brand p{margin:2px 0 0;color:var(--muted);font-size:14px}
 .streak{display:flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;white-space:nowrap}
